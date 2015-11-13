@@ -2,7 +2,7 @@ package com.rumaruka.cybercraft.reference;
 
 public class VanillaParticles {
 	
-	public static final String NORMAL_SMOKE = "smoke";
+		public static final String NORMAL_SMOKE = "smoke";
 	    public static final String LARGE_SMOKE = "largesmoke";
 	    public static final String NORMAL_EXPLODE = "explode";
 	    public static final String LARGE_EXPLODE = "largeexplode";
