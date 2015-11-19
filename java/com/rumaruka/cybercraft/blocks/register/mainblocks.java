@@ -23,7 +23,7 @@ public class mainblocks {
 
 	public static final void init() {
 		
-		//Crystal
+		
 		puremJI = new puremJI();
 		alloy_presser = new alloyPresser();
 		DebugBlock = new DebugBlock();
