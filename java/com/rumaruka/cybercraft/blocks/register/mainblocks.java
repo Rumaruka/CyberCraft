@@ -6,6 +6,7 @@ import com.rumaruka.cybercraft.blocks.testing.DebugBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 
+
 public class mainblocks {
 	//testBlock
 	public static Block DebugBlock;
