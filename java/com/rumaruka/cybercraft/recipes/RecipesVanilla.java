@@ -16,6 +16,7 @@ public class RecipesVanilla {
 				"EXE",
 				"XEX", 
 				'X', Items.iron_ingot
+				
 		});
 	}
 
