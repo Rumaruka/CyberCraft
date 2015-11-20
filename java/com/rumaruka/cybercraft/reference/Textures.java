@@ -1,7 +1,6 @@
 package com.rumaruka.cybercraft.reference;
 
 import com.rumaruka.cybercraft.util.ResourceLocationHelper;
-
 import net.minecraft.util.ResourceLocation;
 
 public class Textures {

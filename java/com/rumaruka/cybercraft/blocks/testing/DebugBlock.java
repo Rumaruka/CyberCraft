@@ -1,5 +1,9 @@
 package com.rumaruka.cybercraft.blocks.testing;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/CyberCraft1.7.10
 import static net.minecraftforge.common.util.ForgeDirection.EAST;
 import static net.minecraftforge.common.util.ForgeDirection.UP;
 

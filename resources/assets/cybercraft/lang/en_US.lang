@@ -1,7 +1,13 @@
 #Items
 item.
 item.shard_mJI.name=Shard of §3mJI
+
 #Blocks
+<<<<<<< HEAD
 tile.oreShard.name=Ore Shard of §3mJI
+=======
+tile.Pure_mJI.name=Cristal Pure §3mJI
+
+>>>>>>> origin/CyberCraft1.7.10
 #CreativeTab
 itemGroup.CyberCraft I=CyberCraft I

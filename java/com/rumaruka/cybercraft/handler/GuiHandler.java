@@ -2,7 +2,6 @@
 
 
 import com.rumaruka.cybercraft.reference.GUIs;
-
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;

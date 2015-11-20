@@ -7,6 +7,7 @@ import com.rumaruka.cybercraft.blocks.testing.DebugBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 
+
 public class mainblocks {
 	//testBlock
 	public static Block DebugBlock;
@@ -24,7 +25,11 @@ public class mainblocks {
 	public static final void init() {
 		
 		
+<<<<<<< HEAD
 		orePureShard = new orePureShard();
+=======
+		puremJI = new puremJI();
+>>>>>>> origin/CyberCraft1.7.10
 		alloy_presser = new alloyPresser();
 		DebugBlock = new DebugBlock();
 		GameRegistry.registerBlock(orePureShard, "CT");
