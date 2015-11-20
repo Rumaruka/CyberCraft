@@ -1,6 +1,7 @@
 package com.rumaruka.cybercraft.blocks;
 
 import com.rumaruka.cybercraft.cybercraft;
+import com.rumaruka.cybercraft.blocks.tileentites.TileEntityAlloyPresser;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
@@ -20,7 +21,7 @@ public class alloyPresser extends BlockContainer {
 	@Override
 	public TileEntity createNewTileEntity(World w, int par1) {
 		
-		return null;
+		return new TileEntityAlloyPresser();
 	}
 
 }
