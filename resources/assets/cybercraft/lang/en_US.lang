@@ -1,13 +1,12 @@
+#Achievements
+achievement.AlloyPresser=First Step
+achievement.AlloyPresser.desc=Build Alloy Presser
 #Items
 item.
-item.shard_mJI.name=Shard of §3mJI
-
+item.ShardmJI.name=Shard of §3mJI
+item.ingot_mJI.name=
 #Blocks
-<<<<<<< HEAD
+tile.alloyPresser.name=Alloy Presser
 tile.oreShard.name=Ore Shard of §3mJI
-=======
-tile.Pure_mJI.name=Cristal Pure §3mJI
-
->>>>>>> origin/CyberCraft1.7.10
 #CreativeTab
 itemGroup.CyberCraft I=CyberCraft I

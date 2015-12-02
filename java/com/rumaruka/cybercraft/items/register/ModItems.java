@@ -8,12 +8,13 @@ import com.rumaruka.cybercraft.items.testing.DebugItem;
 import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 
 
 
-public class mainitems {
+public class ModItems {
 	
 	//testItem
 	public static Item DebugItem ;
@@ -28,7 +29,7 @@ public class mainitems {
 		ShardmJI = new ShardmJI();
 		ingotmJI = new ingotmJI();
 		GameRegistry.registerItem(ingotmJI, "ingotMJI");
-		GameRegistry.registerItem(ShardmJI, "SJI");
+		GameRegistry.registerItem(ShardmJI, "ShardmJI");
 		GameRegistry.registerItem(DebugItem,"Debuging");
 	}
 

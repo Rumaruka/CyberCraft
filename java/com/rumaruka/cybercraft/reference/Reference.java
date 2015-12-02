@@ -1,6 +1,5 @@
 package com.rumaruka.cybercraft.reference;
 
-
 public class Reference {
 	
 		public static final String MODID = "cybercraft";

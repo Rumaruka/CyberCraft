@@ -1,9 +1,7 @@
 package com.rumaruka.cybercraft.items;
 
 import com.rumaruka.cybercraft.cybercraft;
-import com.rumaruka.cybercraft.blocks.register.mainblocks;
 import com.rumaruka.cybercraft.reference.Reference;
-
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -19,7 +17,7 @@ public class ShardmJI extends Item {
 		super();
 		setCreativeTab(cybercraft.tabCyberCraft);
 		setTextureName(Reference.MODID+":"+"shardmJITAnT1");
-		setUnlocalizedName("shard_mJI");
+		setUnlocalizedName("ShardmJI");
 	}
 	
 

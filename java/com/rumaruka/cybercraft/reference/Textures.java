@@ -1,6 +1,7 @@
 package com.rumaruka.cybercraft.reference;
 
 import com.rumaruka.cybercraft.util.ResourceLocationHelper;
+
 import net.minecraft.util.ResourceLocation;
 
 public class Textures {
@@ -13,8 +14,28 @@ public class Textures {
 		 private static final String MODEL_TEXTURE_LOCATION = "textures/models/";
 	}
 	
-	public static final class Gui{
-		public static final String GUI_TEXTURE_LOCATION = "textures/gui/";
+	 public static final class Gui
+	    {
+	        protected static final String GUI_TEXTURE_LOCATION = "textures/gui/";
+	        public static final ResourceLocation CALCINATOR = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "calcinator.png");
+	        public static final ResourceLocation ALUDEL = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "aludel.png");
+	        public static final ResourceLocation ALCHEMICAL_BAG_SMALL = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalBag_small.png");
+	        public static final ResourceLocation ALCHEMICAL_BAG_MEDIUM = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalBag_medium.png");
+	        public static final ResourceLocation ALCHEMICAL_BAG_LARGE = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalBag_large.png");
+	        public static final ResourceLocation ALCHEMICAL_CHEST_SMALL = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalChest_small.png");
+	        public static final ResourceLocation ALCHEMICAL_CHEST_MEDIUM = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalChest_medium.png");
+	        public static final ResourceLocation ALCHEMICAL_CHEST_LARGE = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalChest_large.png");
+	        public static final ResourceLocation GLASS_BELL = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "glassBell.png");
+	        public static final ResourceLocation RESEARCH_STATION = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "researchStation.png");
+	        public static final ResourceLocation RESEARCH_STATION_GYLPH_1 = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "researchStation_Glyph1.png");
+	        public static final ResourceLocation RESEARCH_STATION_GYLPH_2 = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "researchStation_Glyph2.png");
+	        public static final ResourceLocation AUGMENTATION_TABLE = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "augmentationTable.png");
+	        public static final ResourceLocation PORTABLE_CRAFTING = new ResourceLocation("textures/gui/container/crafting_table.png");
+	        public static final ResourceLocation ALCHEMICAL_TOME = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "alchemicalTome.png");
+	        public static final ResourceLocation TRANSMUTATION_ARRAY_1 = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "transmutationArray_1.png");
+	        public static final ResourceLocation TRANSMUTATION_ARRAY_3 = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "transmutationArray_3.png");
+	        public static final ResourceLocation TRANSMUTATION_ARRAY_5 = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "transmutationArray_5.png");
+	        public static final ResourceLocation TRANSMUTATION_TABLET = ResourceLocationHelper.getResourceLocation(GUI_TEXTURE_LOCATION + "transmutationTablet.png");
 	}
 	
 	  public static final class Elements
